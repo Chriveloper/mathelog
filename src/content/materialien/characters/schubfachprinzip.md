@@ -1,7 +1,7 @@
 ---
 title: Das Schubfachprinzip
 description: "Eine der wichtigsten Beweistechniken der Kombinatorik - einfach erklärt mit vielen Beispielen"
-image: "@assets/materialien/kombinatorik/schubfachprinzip.jpg"
+# image: "@assets/materialien/kombinatorik/schubfachprinzip.jpg"
 imageAlt: "Darstellung von Schubfächern mit zu vielen Objekten"
 pubDate: 2024-07-15
 modDate: 2024-08-03

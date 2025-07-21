@@ -2,7 +2,7 @@
 title: MatheLog startet in der neuen Schulzeit!
 description: Unsere Initiative zur Förderung mathematischer Talente geht in die nächste Runde
 date: 2025-01-15
-image: "@assets/ankuendigungen/mathelog-start.jpg"
+# image: "@assets/ankuendigungen/mathelog-start.jpg"
 imageAlt: MatheLog Logo mit mathematischen Symbolen
 categories: [Allgemein]
 author: mathelog-team

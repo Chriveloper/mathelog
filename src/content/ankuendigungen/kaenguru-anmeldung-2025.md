@@ -2,7 +2,7 @@
 title: Känguru-Wettbewerb 2025 - Jetzt anmelden!
 description: Der beliebteste Mathematik-Wettbewerb startet bald - alle Infos zur Anmeldung und Vorbereitung
 date: 2025-01-20  
-image: "@assets/ankuendigungen/kaenguru-2025.jpg"
+# image: "@assets/ankuendigungen/kaenguru-2025.jpg"
 imageAlt: Känguru-Logo mit Zahlen und Symbolen
 categories: [Wettbewerbe]
 author: mathelog-team

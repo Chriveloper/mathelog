@@ -1,7 +1,7 @@
 ---
 title: Känguru der Mathematik
 description: Der größte Mathematik-Wettbewerb für Schüler*innen mit über 6 Millionen Teilnehmenden weltweit
-image: "@assets/wettbewerbe/kaenguru.jpg"
+# image: "@assets/wettbewerbe/kaenguru.jpg"
 author: mathelog-team
 anmeldefrist: "15. Februar"
 teilnahmegebuehr: "2,50 €"

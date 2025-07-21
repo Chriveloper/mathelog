@@ -1,7 +1,7 @@
 ---
 title: Mathematik-Olympiade
 description: Die traditionsreichste und anspruchsvollste Mathematik-Wettbewerb Deutschlands
-image: "@assets/wettbewerbe/mathematik-olympiade.jpg"
+# image: "@assets/wettbewerbe/mathematik-olympiade.jpg"
 author: mathelog-team
 anmeldefrist: "September/Oktober"
 teilnahmegebuehr: "kostenlos"
