@@ -1,23 +1,23 @@
 ---
-title: Portfolio
-description: Jane Doe's projects and programs.
+title: Projekte
+description: Unsere MatheLog-Projekte und Initiativen zur Förderung mathematischer Talente
 
 projects:
-  - title: "Conway's Game of Life"
+  - title: "Mathe-AG Netzwerk"
     technologies:
-      - "HTML Canvas"
-      - "JavaScript"
+      - "Mentoring"
+      - "Schulkooperationen"
     github: "https://github.com/"
     content:
-      - "[Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a cellular automaton designed by the late [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway#). It's a \"0-player game\" played out on a discretely mutating matrix of square, binary cells. The state of the each cell in the grid from one 'generation' (grid state) to the next is determined by the states of its 'neighbors' (immediately adjacent cells). For example, if a cell is 'alive' in the curent generation, and has more than 3 living neighbors, it will be dead in the next generation, as if by overpopulation."
-  - title: "Weather Dashboard"
+      - "Aufbau lokaler Mathe-AGs an Schulen durch ältere Schüler*innen als Mentoren. Das Netzwerk verbindet engagierte Jugendliche und ermöglicht den Wissenstransfer zwischen den Generationen."
+  - title: "Wettbewerbs-Plattform"
     technologies:
-      - "React"
-      - "OpenWeather API"
+      - "Web Development" 
+      - "Community Building"
     github: "https://github.com/"
     content:
-      - "The Weather Dashboard is a web application that provides real-time weather updates for any location. It utilizes the [OpenWeather API](https://openweathermap.org/api) to fetch current weather data, including temperature, humidity, and wind speed. Built with [React](https://reactjs.org/), the application features a responsive design and allows users to search for cities and view detailed weather forecasts."
-  - title: "Clown Shoes"
+      - "Eine zentrale Online-Plattform für alle Informationen zu Mathematik-Wettbewerben. Hier finden Schüler*innen Termine, Anmeldefristen und können sich mit Gleichgesinnten vernetzen."
+  - title: "MatheLog Materialien"
     technologies:
       - "Sewing Machine"
       - "Fabric"

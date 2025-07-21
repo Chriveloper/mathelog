@@ -1,6 +1,6 @@
 ---
-title: Characters
-description: Character creation information
-image: "@assets/materialien/characters/cover.jpg"
-imageAlt: A white knight, painted dramatically
+title: Kombinatorik
+description: Grundlagen des Zählens, Permutationen und Kombinationen für Mathematik-Wettbewerbe
+image: "@assets/materialien/kombinatorik/cover.jpg"
+imageAlt: Bunte Kombinatorik-Darstellung
 ---

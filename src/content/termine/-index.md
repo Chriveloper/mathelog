@@ -1,33 +1,28 @@
 ---
-title: Index Cards
-description: An example of content in an index card format.
+title: Termine
+description: Wichtige Deadlines und Termine für Mathematik-Wettbewerbe und MatheLog-Veranstaltungen
 
 cards:
- - The 1st card
- - The 2nd card
- - The 3rd card
- - The 4th card
- - The 5th card
- - The 6th card
- - The 7th card
- - The 8th card
- - The 9th card
- - The 10th card
- - The 11th card
- - The 12th card
- - The 13th card
- - The 14th card
- - The 15th card
- - The 16th card
- - The 17th card
- - The 18th card
- - The 19th card
- - The 20th card
- - The 21st card
- - The 22nd card
- - The 23rd card
- - The 24th card
- - The 25th card
+ - Känguru-Wettbewerb Anmeldung bis 15. Februar
+ - Jugend forscht Regionalwettbewerb März 2025
+ - Mathematik-Olympiade Landesrunde April 2025
+ - Naboj Online-Wettbewerb Mai 2025
+ - JuMa Sommerakademie Juli 2025
+ - MatheLog AG-Leiter Treffen August 2025
+ - Neue Schuljahr Plakataktion September 2025
+ - Herbstcamp für Fortgeschrittene Oktober 2025
+ - Advent-Calendar-Challenge Dezember 2025
+ - Frühjahrs-Workshop für Einsteiger Januar 2026
+ - Regional-Finale der Schulliga Februar 2026
+ - MatheLog Community Day März 2026
+ - Oster-Intensivkurs April 2026
+ - Internationale Mathe-Olympiade Vorbereitung Mai 2026
+ - Sommer-Mathe-Camp 2026 Anmeldung Juni 2026
+ - Mentoren-Ausbildung für neue AG-Leiter Juli 2026
+ - Back-to-School Motivations-Tour August 2026
+ - Herbst-Challenge Series September 2026
+ - Problem-Solving Workshop Oktober 2026
+ - MatheLog Jahreskonferenz November 2026
  - The 26th card
  - The 27th card
  - The 28th card

@@ -1,4 +1,4 @@
 ---
-title: Authors
-description: this is meta description
+title: Autoren
+description: Das MatheLog-Team und unsere Mitwirkenden
 ---

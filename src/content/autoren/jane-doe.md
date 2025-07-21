@@ -1,11 +1,18 @@
 ---
-title: Jane Doe
-email: janedoe@email.com
+title: Lisa Mathematik
+email: lisa@mathelog.de
 image: "@assets/profile/jane-doe.jpg"
 social:
-  github: "https://github.com/"
-  linkedIn: "https://www.linkedin.com/"
-  email: "janedoe@janedoe.com"
+  github: "https://github.com/mathelog"
+  linkedIn: "https://www.linkedin.com/in/mathelog"
+  email: "lisa@mathelog.de"
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+Hallo! Ich bin Lisa und eine der Gründerinnen von MatheLog. Als ehemalige Teilnehmerin der Internationalen Mathematik-Olympiade möchte ich meine Begeisterung für mathematische Wettbewerbe an die nächste Generation weitergeben.
+
+**Mein Fokus bei MatheLog:**
+- Entwicklung von Lernmaterialien für Kombinatorik und Zahlentheorie
+- Mentoring von AG-Leiter*innen
+- Koordination der Schulkooperationen
+
+**Mathematische Interessen:** Kombinatorik, Zahlentheorie, diskrete Mathematik

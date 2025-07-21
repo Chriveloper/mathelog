@@ -1,12 +1,20 @@
 ---
-title: John Doe
-email: johndoe@email.com
+title: Max Problemlöser
+email: max@mathelog.de
 image: "@assets/profile/john-doe.jpg"
-description: This is the description. Just an example of a description, which is bad. A most not good description indeed, but characters on the page.
+description: Community-Manager und Wettbewerbs-Experte bei MatheLog
 social:
-  facebook: "https://www.facebook.com/"
-  instagram: "https://www.instagram.com/"
-  youtube: "https://www.youtube.com/"
+  twitter: "https://twitter.com/mathelog"
+  instagram: "https://www.instagram.com/mathelog"
+  youtube: "https://www.youtube.com/c/mathelog"
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+Hi! Ich bin Max und kümmere mich bei MatheLog um die Community und Social Media. Als ehemaliger Bundessieger der Mathematik-Olympiade kenne ich die Höhen und Tiefen von Wettbewerben.
+
+**Meine Rolle bei MatheLog:**
+- Community Management und Social Media
+- Erstellung von Wettbewerbs-Übersichten  
+- Organisation von Events und Camps
+
+**Lieblings-Wettbewerb:** Mathematik-Olympiade (natürlich!)
+**Motto:** "Mathe ist kein Sport – es ist Kunst!"

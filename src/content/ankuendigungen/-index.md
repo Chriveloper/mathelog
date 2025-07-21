@@ -1,4 +1,4 @@
 ---
-title: Blog Posts
-description: The ankuendigungen of Jane and John Doe
+title: Ankündigungen
+description: Aktuelle Neuigkeiten, Wettbewerbs-Termine und spannende Updates aus der MatheLog-Community
 ---

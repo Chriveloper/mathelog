@@ -1,9 +1,9 @@
 ---
 image: "@assets/astrogon-star.svg"
-imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a ankuendigungen, documentation, and more.
+imageAlt: MatheLog logo
+title: MatheLog
+content: Eine Plattform, die junge Schüler*innen für Mathematik begeistert – durch Wettbewerbe, spannende Aufgaben und ein starkes Netzwerk.
 button:
-  label: See the Code
-  link: https://github.com/astrogon/astrogon
+  label: Mehr erfahren
+  link: /ueber
 ---
