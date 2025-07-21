@@ -1,0 +1,11 @@
+---
+import CollectionLayout from "@components/materialien/CollectionLayout.astro";
+import { getIndex, getGroups } from "@lib/contentParser";
+import type { DocsEntry } from "@/types";
+import { sortByTitle } from "@lib/sortFunctions";
+
+const collectionIndex = (await getIndex("materialien")) as DocsEntry;
+const groupIndices = (await getGroups("materialien", sortByTitle)) as DocsEntry[];
+---
+
+<CollectionLayout entries={groupIndices} collectionIndex={collectionIndex} />

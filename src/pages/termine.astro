@@ -1,0 +1,9 @@
+---
+import { getIndex } from "@lib/contentParser";
+import EntryLayout from "@components/termine/EntryLayout.astro";
+import type { TermineEntry } from "@/types";
+
+const entry = (await getIndex("termine")) as TermineEntry;
+---
+
+<EntryLayout entry={entry}/>

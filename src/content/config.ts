@@ -24,8 +24,8 @@ const social = z.object({
   youtube: z.string().optional(),
 });
 
-const about = defineCollection({
-  loader: glob({ pattern: "-index.{md,mdx}", base: "./src/content/about" }),
+const ueber = defineCollection({
+  loader: glob({ pattern: "-index.{md,mdx}", base: "./src/content/ueber" }),
   schema: ({ image }) =>
     searchable.extend({
       image: image().optional(),
@@ -33,10 +33,10 @@ const about = defineCollection({
     }),
 });
 
-const authors = defineCollection({
+const autoren = defineCollection({
   loader: glob({
     pattern: "**\/[^_]*.{md,mdx}",
-    base: "./src/content/authors",
+    base: "./src/content/autoren",
   }),
   schema: ({ image }) =>
     searchable.extend({
@@ -47,14 +47,14 @@ const authors = defineCollection({
     }),
 });
 
-const blog = defineCollection({
-  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/blog" }),
+const ankuendigungen = defineCollection({
+  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/ankuendigungen" }),
   schema: ({ image }) =>
     searchable.extend({
       date: z.date().optional(),
       image: image().optional(),
       imageAlt: z.string().default(""),
-      author: reference("authors").optional(),
+      author: reference("autoren").optional(),
       categories: z.array(z.string()).optional(),
       tags: z.array(z.string()).optional(),
       complexity: z.number().default(1),
@@ -62,8 +62,8 @@ const blog = defineCollection({
     }),
 });
 
-const docs = defineCollection({
-  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/docs" }),
+const materialien = defineCollection({
+  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/materialien" }),
   schema: ({ image }) =>
     searchable.extend({
       pubDate: z.date().optional(),
@@ -92,10 +92,10 @@ const home = defineCollection({
     }),
 });
 
-const indexCards = defineCollection({
+const termine = defineCollection({
   loader: glob({
     pattern: "-index.{md,mdx}",
-    base: "./src/content/index-cards",
+    base: "./src/content/termine",
   }),
   schema: z.object({
     title: z.string(),
@@ -104,21 +104,21 @@ const indexCards = defineCollection({
   }),
 });
 
-const poetry = defineCollection({
-  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/poetry" }),
+const ressourcen = defineCollection({
+  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/ressourcen" }),
   schema: ({ image }) =>
     searchable.extend({
       date: z.date().optional(),
       image: image().optional(),
       imageAlt: z.string().default(""),
-      author: reference("authors").optional(),
+      author: reference("autoren").optional(),
     }),
 });
 
-const portfolio = defineCollection({
+const projekte = defineCollection({
   loader: glob({
     pattern: "-index.{md,mdx}",
-    base: "./src/content/portfolio",
+    base: "./src/content/projekte",
   }),
   schema: searchable.extend({
     projects: z.array(
@@ -132,17 +132,17 @@ const portfolio = defineCollection({
   }),
 });
 
-const recipes = defineCollection({
+const wettbewerbe = defineCollection({
   loader: glob({
     pattern: "**\/[^_]*.{md,mdx}",
-    base: "./src/content/recipes",
+    base: "./src/content/wettbewerbe",
   }),
   schema: ({ image }) =>
     searchable.extend({
       date: z.date().optional(),
       image: image().optional(),
       imageAlt: z.string().default(""),
-      author: reference("authors").optional(),
+      author: reference("autoren").optional(),
       prepTime: z.number().optional(),
       servings: z.number().optional(),
       diet: z.string().optional(),
@@ -164,14 +164,22 @@ const terms = defineCollection({
 
 // Export collections
 export const collections = {
-  about,
-  authors,
-  blog,
-  docs,
+  ueber,
+  autoren,
+  ankuendigungen,
+  materialien,
+  termine,
+  ressourcen,
+  projekte,
+  wettbewerbe,
+  ueber,
+  autoren,
+  ankuendigungen,
+  materialien,
   home,
-  indexCards,
-  poetry,
-  portfolio,
-  recipes,
+  termine,
+  ressourcen,
+  projekte,
+  wettbewerbe,
   terms,
 };

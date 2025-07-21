@@ -1,0 +1,11 @@
+---
+import TaxaLayout from "@components/ankuendigungen/TaxaLayout.astro";
+import { getTaxa, getTaxaMultiset } from "@lib/taxonomyParser";
+
+const collection = "ankuendigungen";
+const taxonomy = "tags";
+const taxa = await getTaxa(collection, taxonomy);
+const allTaxa = await getTaxaMultiset(collection, taxonomy);
+---
+
+<TaxaLayout taxonomy={taxonomy} taxa={taxa} allTaxa={allTaxa} />

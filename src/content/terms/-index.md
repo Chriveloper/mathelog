@@ -36,7 +36,7 @@ SOFTWARE.
 
 ### Content
 
-It is not permitted to mirror or re-publish the content of this website. That includes, for example, the words and images displayed on it. Write your own blog.
+It is not permitted to mirror or re-publish the content of this website. That includes, for example, the words and images displayed on it. Write your own ankuendigungen.
 
 ## Terms
 

@@ -1,0 +1,16 @@
+---
+import type { TermineEntry } from "@/types";
+import BaseLayout from "@components/base/BaseLayout.astro";
+import Swiper from "@components/termine/Swiper";
+
+interface Props {
+  entry: TermineEntry;
+}
+
+const { entry } = Astro.props;
+const { title, description, cards } = entry.data;
+---
+
+<BaseLayout title={title} description={description}>
+  <Swiper {cards} client:load />
+</BaseLayout>
