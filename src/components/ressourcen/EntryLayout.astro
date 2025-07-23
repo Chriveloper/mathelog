@@ -3,12 +3,12 @@ import BaseLayout from "@components/base/BaseLayout.astro";
 import Pagination from "@components/common/Pagination.astro";
 import Share from "@components/common/Share.astro";
 import { plainify } from "@lib/textConverter";
-import type { PoetryEntry } from "@/types";
+import type { RessourcenEntry } from "@/types";
 
 import { render } from "astro:content";
 import EntryHeader from "@components/common/EntryHeader.astro";
 interface Props {
-  entry: PoetryEntry;
+  entry: RessourcenEntry;
   pageIDs: string[];
   pageIndex: number;
   pageCount: number;

@@ -1,11 +1,11 @@
 ---
-import type { AuthorsEntry } from "@/types";
+import type { AutorenEntry } from "@/types";
 import { plainify } from "@lib/textConverter";
 import { Image } from "astro:assets";
 import Social from "@components/common/Social.astro";
 
 interface Props {
-  entry: AuthorsEntry;
+  entry: AutorenEntry;
 }
 
 const { entry }: Props = Astro.props;

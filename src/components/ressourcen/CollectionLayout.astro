@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "@components/base/BaseLayout.astro";
 import PageHeader from "@components/common/PageHeader.astro";
-import type { PoetryEntry } from "@/types";
+import type { RessourcenEntry } from "@/types";
 
 interface Props {
-  entryIndex: PoetryEntry;
-  entries: PoetryEntry[];
+  entryIndex: RessourcenEntry;
+  entries: RessourcenEntry[];
 }
 
 const { entryIndex, entries } = Astro.props;

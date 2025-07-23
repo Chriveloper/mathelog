@@ -1,12 +1,12 @@
 ---
-import type { AuthorsEntry } from "@/types";
+import type { AutorenEntry } from "@/types";
 import CollectionLayout from "@components/autoren/CollectionLayout.astro";
 import { getEntries } from "@lib/contentParser";
 import { getIndex } from "@lib/contentParser";
 import { sortByTitle } from "@lib/sortFunctions";
 
-const authorIndex = await getIndex("autoren") as AuthorsEntry;
-const entries = await getEntries("autoren", sortByTitle) as AuthorsEntry[];
+const authorIndex = await getIndex("autoren") as AutorenEntry;
+const entries = await getEntries("autoren", sortByTitle) as AutorenEntry[];
 ---
 
 <CollectionLayout authorIndex={authorIndex} entries={entries} />

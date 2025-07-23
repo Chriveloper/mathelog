@@ -1,5 +1,5 @@
 ---
-import type { BlogEntry } from "@/types";
+import type { AnkündigungenEntry } from "@/types";
 import { upperHumanize, plainify, slugify } from "@lib/textConverter";
 import {
   FaRegFolder,
@@ -11,7 +11,7 @@ import readingTime from "@lib/readingTime";
 import { formatDate } from "@lib/formatDate";
 
 interface Props {
-  entry: BlogEntry;
+  entry: AnkündigungenEntry;
 }
 
 const { entry }: Props = Astro.props;

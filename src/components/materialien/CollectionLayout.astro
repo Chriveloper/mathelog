@@ -2,11 +2,11 @@
 import BaseLayout from "@components/base/BaseLayout.astro";
 import DocCard from "@components/materialien/Card.astro";
 import PageHeader from "@components/common/PageHeader.astro";
-import type { DocsEntry } from "@/types";
+import type { MaterialienEntry } from "@/types";
 
 interface Props {
-  collectionIndex: DocsEntry;
-  entries: DocsEntry[]; // this could either be the set of entries in a doc group, or the set of indices of the doc groups
+  collectionIndex: MaterialienEntry;
+  entries: MaterialienEntry[]; // this could either be the set of entries in a doc group, or the set of indices of the doc groups
 }
 
 const { collectionIndex, entries } = Astro.props;

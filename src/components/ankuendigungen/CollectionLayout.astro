@@ -1,14 +1,14 @@
 ---
 import BaseLayout from "@components/base/BaseLayout.astro";
-import BlogCard from "@components/ankuendigungen/Card.astro";
+import AnkündigungenCard from "@components/ankuendigungen/Card.astro";
 import Pagination from "@components/common/Pagination.astro";
 import PageHeader from "@components/common/PageHeader.astro";
-import BlogSidebar from "@components/ankuendigungen/Sidebar.astro";
-import type { BlogEntry } from "@/types";
+import AnkündigungenSidebar from "@components/ankuendigungen/Sidebar.astro";
+import type { AnkündigungenEntry } from "@/types";
 
 interface Props {
-  entryIndex: BlogEntry;
-  entries: BlogEntry[];
+  entryIndex: AnkündigungenEntry;
+  entries: AnkündigungenEntry[];
   tags: string[];
   categories: string[];
   allCategories: string[];
@@ -37,7 +37,7 @@ const {
           {
             entries.map((entry) => (
               <div class="mb-4">
-                <BlogCard entry={entry} />
+                <AnkündigungenCard entry={entry} />
               </div>
             ))
           }
@@ -51,7 +51,7 @@ const {
         <div
           class="hidden lg:col-4 lg:flex max-h-static_sidemenu sticky p-0 pl-4 top-[4rem]"
         >
-          <BlogSidebar
+          <AnkündigungenSidebar
             tags={tags}
             categories={categories}
             allCategories={allCategories}

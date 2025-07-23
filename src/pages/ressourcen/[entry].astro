@@ -1,11 +1,11 @@
 ---
-import type { PoetryEntry } from "@/types";
+import type { RessourcenEntry } from "@/types";
 import { sortByDate } from "@lib/sortFunctions";
 import EntryLayout from "@components/ressourcen/EntryLayout.astro";
 import { getEntries } from "@lib/contentParser";
 
 export async function getStaticPaths() {
-  const entries = (await getEntries("ressourcen", sortByDate)) as PoetryEntry[];
+  const entries = (await getEntries("ressourcen", sortByDate)) as RessourcenEntry[];
   const pageIDs: string[] = entries.map((entry) => entry.id);
   const pageCount = pageIDs.length;
 

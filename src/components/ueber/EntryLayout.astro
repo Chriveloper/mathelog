@@ -2,11 +2,11 @@
 import BaseLayout from "@components/base/BaseLayout.astro";
 import { markdownify } from "@lib/textConverter";
 import { Image } from "astro:assets";
-import type { AboutEntry } from "@/types";
+import type { ÜberEntry } from "@/types";
 import { render } from "astro:content";
 
 interface Props {
-  entry: AboutEntry;
+  entry: ÜberEntry;
 }
 
 const { entry } = Astro.props;

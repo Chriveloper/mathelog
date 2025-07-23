@@ -3,11 +3,11 @@ import BaseLayout from "@components/base/BaseLayout.astro";
 import RecipeCard from "@components/wettbewerbe/Card.astro";
 import Pagination from "@components/common/Pagination.astro";
 import PageHeader from "@components/common/PageHeader.astro";
-import type { RecipesEntry } from "@/types";
+import type { WettbewerbeEntry } from "@/types";
 
 interface Props {
-  entryIndex: RecipesEntry;
-  entries: RecipesEntry[];
+  entryIndex: WettbewerbeEntry;
+  entries: WettbewerbeEntry[];
   pageIndex: number;
   pageCount: number;
 }

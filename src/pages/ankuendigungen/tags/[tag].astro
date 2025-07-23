@@ -1,5 +1,5 @@
 ---
-import type { BlogEntry } from "@/types";
+import type { AnkündigungenEntry } from "@/types";
 import { getEntries } from "@lib/contentParser";
 import { getTaxa } from "@lib/taxonomyParser";
 import taxonomyFilter from "@lib/taxonomyFilter";
@@ -17,8 +17,8 @@ export async function getStaticPaths() {
 }
 
 const { taxon } = Astro.props;
-const entries = await getEntries("ankuendigungen") as BlogEntry[];
-const filteredEntries: BlogEntry[] = taxonomyFilter(entries, "tags", taxon!);
+const entries = await getEntries("ankuendigungen") as AnkündigungenEntry[];
+const filteredEntries: AnkündigungenEntry[] = taxonomyFilter(entries, "tags", taxon!);
 ---
 
 <TaxonLayout taxon={taxon} entries={filteredEntries} />

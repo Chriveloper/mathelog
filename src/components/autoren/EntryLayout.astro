@@ -1,17 +1,17 @@
 ---
-import BlogCard from "@components/ankuendigungen/Card.astro";
+import AnkündigungenCard from "@components/ankuendigungen/Card.astro";
 import Social from "@components/common/Social.astro";
 import BaseLayout from "@components/base/BaseLayout.astro";
 import { Image } from "astro:assets";
 import { render } from "astro:content";
-import type { AuthorsEntry, BlogEntry } from "@/types";
+import type { AutorenEntry, AnkündigungenEntry } from "@/types";
 
 interface Props {
-  entry: AuthorsEntry;
-  recentBlogEntries: BlogEntry[];
+  entry: AutorenEntry;
+  recentAnkündigungenEntries: AnkündigungenEntry[];
 }
 
-const { entry, recentBlogEntries } = Astro.props;
+const { entry, recentAnkündigungenEntries } = Astro.props;
 const { title, social, description, image, imageAlt } = entry.data;
 
 const { Content } = await render(entry);
@@ -47,9 +47,9 @@ const { Content } = await render(entry);
       </div>
       <div class="row justify-center pb-16 pt-14">
         {
-          recentBlogEntries.map((entry) => (
+          recentAnkündigungenEntries.map((entry) => (
             <div class="mb-8 md:col-6 lg:col-4">
-              <BlogCard entry={entry} />
+              <AnkündigungenCard entry={entry} />
             </div>
           ))
         }

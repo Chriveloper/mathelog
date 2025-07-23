@@ -3,13 +3,13 @@ import CollectionLayout from "@components/ankuendigungen/CollectionLayout.astro"
 import { getTaxaMultiset, getTaxa } from "@lib/taxonomyParser";
 import { getEntries, getIndex } from "@lib/contentParser";
 import { sortByDate } from "@lib/sortFunctions";
-import type { BlogEntry } from "@/types";
+import type { AnkündigungenEntry } from "@/types";
 
 const { slug } = Astro.params;
 const currentPageIndex = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
 
-const entryIndex = (await getIndex("ankuendigungen")) as BlogEntry;
-const entries = (await getEntries("ankuendigungen", sortByDate)) as BlogEntry[];
+const entryIndex = (await getIndex("ankuendigungen")) as AnkündigungenEntry;
+const entries = (await getEntries("ankuendigungen", sortByDate)) as AnkündigungenEntry[];
 
 const allCategories = await getTaxaMultiset("ankuendigungen", "categories");
 const categories = await getTaxa("ankuendigungen", "categories");

@@ -1,9 +1,9 @@
 ---
-import type { PortfolioEntry } from "@/types";
+import type { ProjekteEntry } from "@/types";
 import EntryLayout from "@components/projekte/EntryLayout.astro";
 import { getIndex } from "@lib/contentParser";
 
-const entry = (await getIndex("projekte")) as PortfolioEntry;
+const entry = (await getIndex("projekte")) as ProjekteEntry;
 ---
 
 <EntryLayout entry={entry} />

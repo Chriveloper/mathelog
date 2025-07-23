@@ -83,6 +83,6 @@ dist/
 .output/
 .json/
 
-# normal ne
-umstellung.sh
-umstellung_vollstaendig.sh
+# # normal ne
+# umstellung.sh
+# umstellung_vollstaendig.sh
